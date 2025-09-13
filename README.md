@@ -24,7 +24,6 @@ Clone the repository and build:
 ```sh
 git clone https://github.com/yourusername/go_mp3.git
 cd go_mp3
-go build -o go_mp3 ./cmd
 ```
 
 ## Usage
@@ -49,7 +48,7 @@ Disturbed - Indestructible|https://www.youtube.com/watch?v=kjRWG0tKD4A&list=...
 Run:
 
 ```sh
-./go_mp3 playlists/disturbed.txt
+go run .\\cmd\\main.go .\\playlists\\disturbed.txt
 ```
 
 All albums in the file will be downloaded and tagged.
